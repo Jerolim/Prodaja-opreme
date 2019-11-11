@@ -1,21 +1,44 @@
 import React from "react"
-import { Link } from "gatsby"
-
+// import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+/*const menuItems = [
+  {
+    text:'page2',
+    path:'/page2'
+  },
+  { 
+    text:'example1',
+    path:'/examples/example1'
+  }
+];
+*/
 
-const IndexPage = () => (
+
+const Index = () => {// dajemo mu data to je sve podatke iz graphql
+  // console.log(data);
+  //const {menuItems}=data.site.siteMetadata;
+  return(
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi my eople</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <h1>Naslovna</h1>
+    <h2>Nesto</h2>
+  
   </Layout>
-)
+  
+  )
+}
 
-export default IndexPage
+export default Index// bitno za eksportat podatke
+/*
+export const query = graphql`
+  {
+    site {
+      siteMetadata {
+        menuItems {
+          path
+          text
+        }
+      }
+    }
+  }
+`
+*/
