@@ -6,8 +6,8 @@ const Page2 = () => (
   <Layout>
     <h1>Stranica2</h1>
     <Link to="/">Na glavnu stranicu</Link>
-    
-  </Layout>
+    </Layout>
+ 
 )
 
 export default Page2

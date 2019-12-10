@@ -1,6 +1,9 @@
 import React from "react"
 // import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import GlavniDio from "../components/header"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button';
 /*const menuItems = [
   {
     text:'page2',
@@ -12,19 +15,34 @@ import Layout from "../components/layout"
   }
 ];
 */
-
-
+function handleClick() {
+  console.log('deri')
+  return(
+  <h1>
+    zmija
+  </h1>
+  )
+}
 const Index = () => {// dajemo mu data to je sve podatke iz graphql
   // console.log(data);
   //const {menuItems}=data.site.siteMetadata;
+ 
+ 
+  
   return(
-  <Layout>
-    <h1>Naslovna</h1>
-    <h2>Nesto</h2>
-  
-  </Layout>
-  
+    <div>
+    <div><Button variant="primary" onClick={()=>handleClick()}>Ulazna</Button></div>
+    <GlavniDio>
+
+    </GlavniDio>
+    <Layout>
+
+    </Layout>
+    </div>
+    
+    
   )
+  
 }
 
 export default Index// bitno za eksportat podatke
