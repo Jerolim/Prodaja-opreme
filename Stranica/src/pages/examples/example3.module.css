@@ -1,4 +1,10 @@
-.izgled{
-    margin-top:40px;
-    font-size:3em;
+.izgled {
+  margin-top: 40px;
+  font-size: 3em;
+}
+.tijelo {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }

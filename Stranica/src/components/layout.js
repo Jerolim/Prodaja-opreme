@@ -3,9 +3,8 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Navigation from "./navigation"
 
-const Layout = ({children}) => {
-    
-    const data = useStaticQuery(graphql`
+const Layout = ({ children }) => {
+  const data = useStaticQuery(graphql`
     {
       site {
         siteMetadata {
@@ -18,9 +17,10 @@ const Layout = ({children}) => {
     }
   `)
   return (
-<div>
-    <Navigation menuItems={data.site.siteMetadata.menuItems} />
-    {children}
-</div>
-  )}
+    <div>
+      <Navigation menuItems={data.site.siteMetadata.menuItems} />
+      {children}
+    </div>
+  )
+}
 export default Layout

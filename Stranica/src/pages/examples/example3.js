@@ -1,31 +1,44 @@
 import React from "react"
-import { Card,Button} from 'react-bootstrap';
+import { Card, Button } from "react-bootstrap"
 import example3style from "./example3.module.css"
+import { graphql } from "gatsby"
 console.log("hello p")
 console.log(example3style)
-const Example3 = () => {
-    return(
-        <>
-        
-        <div className={example3style.izgled}>
-            <p>Ponuda dana</p>
-        </div>
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="/preuzmi.jpg" />
-            <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-            </Card>  
-        </>
-    )
 
-   
-   
+const Example3 = ({ data }) => {
+  console.log(data.site.siteMetadata.objave)
+  return (
+    <>
+      <div className={example3style.izgled}>
+        <p>Ponuda dana</p>
+      </div>
+      <div className={example3style.tijelo}>
+        {data.site.siteMetadata.objave.map(({ slika, tekst }) => {
+          return (
+            <Card key={slika} style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={slika} />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>{tekst}</Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+          )
+        })}
+      </div>
+    </>
+  )
 }
-
 export default Example3
+export const query = graphql`
+  {
+    site {
+      siteMetadata {
+        objave {
+          slika
+          tekst
+        }
+      }
+    }
+  }
+`

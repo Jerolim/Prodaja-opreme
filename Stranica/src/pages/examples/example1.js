@@ -1,8 +1,8 @@
 import React from "react"
-import { Navbar,Nav,Form,FormControl,Button} from 'react-bootstrap';
-import Example3 from "./example3"
-const example1 = () => {
-  return(
+import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap"
+
+const Example1 = () => {
+  return (
     <div>
       <Navbar bg="primary" variant="dark" fixed="top">
         <Navbar.Brand href="#home">Navbar</Navbar.Brand>
@@ -13,17 +13,11 @@ const example1 = () => {
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-light">Search</Button>
+          <Button variant="outline-light">Search</Button>
         </Form>
       </Navbar>
-      <>
-      <Example3>
-      </Example3>
-      </>
-      
-      </div>
+    </div>
   )
-  
 }
 
-export default example1
+export default Example1
