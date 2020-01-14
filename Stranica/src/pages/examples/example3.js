@@ -6,20 +6,20 @@ console.log("hello p")
 console.log(example3style)
 
 const Example3 = ({ data }) => {
-  console.log(data.site.siteMetadata.objave)
+  //console.log(data.site.siteMetadata.objave)
   return (
     <>
       <div className={example3style.izgled}>
         <p>Ponuda dana</p>
       </div>
       <div className={example3style.tijelo}>
-        {data.site.siteMetadata.objave.map(({ slika, tekst }) => {
+        {data.cardImages.map(slika => {
           return (
             <Card key={slika} style={{ width: "18rem" }}>
               <Card.Img variant="top" src={slika} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
-                <Card.Text>{tekst}</Card.Text>
+                <Card.Text>hy</Card.Text>
                 <Button variant="primary">Go somewhere</Button>
               </Card.Body>
             </Card>
@@ -32,11 +32,14 @@ const Example3 = ({ data }) => {
 export default Example3
 export const query = graphql`
   {
-    site {
-      siteMetadata {
-        objave {
-          slika
-          tekst
+    cardImages: allFile(filter: { relativePath: { regex: "/card-image/" } }) {
+      edges {
+        node {
+          childImageSharp {
+            fluid(quality: 90) {
+              src
+            }
+          }
         }
       }
     }

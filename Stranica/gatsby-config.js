@@ -15,11 +15,11 @@ module.exports = {
     ],
     objave: [
       {
-        slika: "/preuzmi.jpg",
+        slika: "card-image-1.png",
         tekst: "Ovo je prva slika",
       },
       {
-        slika: "/moon.jpg",
+        slika: "card-image-2.jpg",
         tekst: "Ovo je druga slika",
       },
     ],
