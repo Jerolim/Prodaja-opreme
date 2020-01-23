@@ -2,8 +2,16 @@ import React from "react"
 // import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import GlavniDio from "../components/header"
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
+import "bootstrap/dist/css/bootstrap.min.css"
+import styled from "styled-components"
+const Uredi3 = styled.div`
+  .hep {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+`
 /*const menuItems = [
   {
     text:'page2',
@@ -15,37 +23,23 @@ import Button from 'react-bootstrap/Button';
   }
 ];
 */
-function handleClick() {
-  console.log('deri')
-  return(
-  <h1>
-    zmija
-  </h1>
-  )
-}
-const Index = () => {// dajemo mu data to je sve podatke iz graphql
+
+const Index = () => {
+  // dajemo mu data to je sve podatke iz graphql
   // console.log(data);
   //const {menuItems}=data.site.siteMetadata;
- 
- 
-  
-  return(
-    <div>
-    <div><Button variant="primary" onClick={()=>handleClick()}>Ulazna</Button></div>
-    <GlavniDio>
 
-    </GlavniDio>
-    <Layout>
-
-    </Layout>
-    </div>
-    
-    
+  return (
+    <Uredi3>
+      <div className="hep">
+        <GlavniDio></GlavniDio>
+        <Layout></Layout>
+      </div>
+    </Uredi3>
   )
-  
 }
 
-export default Index// bitno za eksportat podatke
+export default Index // bitno za eksportat podatke
 /*
 export const query = graphql`
   {

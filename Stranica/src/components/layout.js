@@ -11,6 +11,7 @@ const Layout = ({ children }) => {
           menuItems {
             text
             path
+            slika
           }
         }
       }

@@ -7,15 +7,17 @@ module.exports = {
       {
         text: "page2",
         path: "/page2",
+        slika: "../images/card-image-1.png",
       },
       {
         text: "example1",
         path: "/examples/example1",
+        slika: "../../images/card-image-1.png",
       },
     ],
     objave: [
       {
-        slika: "card-image-1.png",
+        slika: "../../images/card-image-1.png",
         tekst: "Ovo je prva slika",
       },
       {
@@ -34,6 +36,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
