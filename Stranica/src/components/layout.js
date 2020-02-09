@@ -6,12 +6,16 @@ import Navigation from "./navigation"
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     {
-      site {
-        siteMetadata {
-          menuItems {
-            text
-            path
-            slika
+      slikice: allFile(
+        filter: { absolutePath: { regex: "/src/images/slikenaslovne//" } }
+      ) {
+        edges {
+          node {
+            childImageSharp {
+              fluid(maxHeight: 250, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
           }
         }
       }
@@ -19,7 +23,7 @@ const Layout = ({ children }) => {
   `)
   return (
     <div>
-      <Navigation menuItems={data.site.siteMetadata.menuItems} />
+      <Navigation menuItems={data} />
       {children}
     </div>
   )

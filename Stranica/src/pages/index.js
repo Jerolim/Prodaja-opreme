@@ -2,14 +2,15 @@ import React from "react"
 // import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import GlavniDio from "../components/header"
+import Footer from "../components/footer"
 import "bootstrap/dist/css/bootstrap.min.css"
 import styled from "styled-components"
+import { Container, Card } from "react-bootstrap"
 const Uredi3 = styled.div`
-  .hep {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
+  margin-top: 100px;
+  .row {
+    margin-left: 15px;
+    margin-right: 15px;
   }
 `
 /*const menuItems = [
@@ -31,10 +32,24 @@ const Index = () => {
 
   return (
     <Uredi3>
-      <div className="hep">
-        <GlavniDio></GlavniDio>
-        <Layout></Layout>
+      <GlavniDio></GlavniDio>
+      <div className="row">
+        <Card
+          style={{
+            border: "0px",
+          }}
+        >
+          <Card.Body
+            style={{
+              paddingBottom: "0.25em",
+            }}
+          >
+            <h1>Weekly sale</h1>
+          </Card.Body>
+        </Card>
       </div>
+      <Layout></Layout>
+      <Footer></Footer>
     </Uredi3>
   )
 }

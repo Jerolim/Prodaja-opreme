@@ -19,23 +19,22 @@ const Example3 = ({ data }) => {
       <div className={example3style.izgled}>
         <p>Ponuda dana</p>
       </div>
-      <div className="container">
-        <div className="row">
-          {data.site.siteMetadata.objave.map(({ slika, tekst }) => {
-            return (
-              <div className="col-md-4 col-sm-6" key={slika}>
-                <Card style={{ marginRight: "150px", width: "18rem" }}>
-                  <Card.Img variant="top" src={slika} />
-                  <Card.Body>
-                    <Card.Title>{tekst} da</Card.Title>
-                    <Card.Text>hy</Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
-                  </Card.Body>
-                </Card>
-              </div>
-            )
-          })}
-        </div>
+
+      <div className="row">
+        {data.site.siteMetadata.objave.map(({ slika, tekst }) => {
+          return (
+            <div className="col-md-4 col-sm-6" key={slika}>
+              <Card style={{ marginRight: "150px", width: "18rem" }}>
+                <Card.Img variant="top" src={slika} />
+                <Card.Body>
+                  <Card.Title>{tekst} da</Card.Title>
+                  <Card.Text>hy</Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+              </Card>
+            </div>
+          )
+        })}
       </div>
     </>
   )
