@@ -59,7 +59,7 @@ const Navigation = ({ Predmeti }) => {
                 <Card.Body>
                   <Card.Title>{broj.Naslov}</Card.Title>
                   <Card.Text>{broj.Opis}</Card.Text>
-                  <Button variant="primary" href="/page2">
+                  <Button variant="primary" href="/proizvod1">
                     Go somewhere
                   </Button>
                 </Card.Body>

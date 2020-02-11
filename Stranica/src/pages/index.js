@@ -6,8 +6,10 @@ import Footer from "../components/footer"
 import "bootstrap/dist/css/bootstrap.min.css"
 import styled from "styled-components"
 import { Container, Card } from "react-bootstrap"
+import { graphql } from "gatsby"
+import Img from "gatsby-image"
 const Uredi3 = styled.div`
-  margin-top: 100px;
+  margin-top: 70px;
   .row {
     margin-left: 15px;
     margin-right: 15px;
@@ -61,6 +63,8 @@ class Index extends Component {
   }
 
   render() {
+    console.log(this.props.data)
+    console.log("oj")
     const { kartice, search } = this.state
     const filtrirano = kartice.filter(kartica => {
       if (kartica.Naslov.toLowerCase().includes(search.toLowerCase()))
@@ -69,6 +73,9 @@ class Index extends Component {
     return (
       <Uredi3>
         <GlavniDio trazenje={this.onSearchChange}></GlavniDio>
+        <Img
+          fluid={this.props.data.allFile.edges[0].node.childImageSharp.fluid}
+        />
         <div className="row">
           <div className="col-lg-12" align="center">
             <Card
@@ -97,6 +104,21 @@ class Index extends Component {
 }
 
 export default Index // bitno za eksportat podatke
+export const query = graphql`
+  {
+    allFile(filter: { absolutePath: { regex: "/src/images/prvaslika//" } }) {
+      edges {
+        node {
+          childImageSharp {
+            fluid(quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+  }
+`
 /*
 export const query = graphql`
   {

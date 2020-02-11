@@ -1,5 +1,6 @@
 import React from "react"
 import { Card, Button, Container } from "react-bootstrap"
+import "bootstrap/dist/css/bootstrap.min.css"
 import GlavniDio from "../components/header"
 import Footer from "../components/footer"
 import styled from "styled-components"
