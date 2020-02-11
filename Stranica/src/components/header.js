@@ -19,7 +19,7 @@ const Uredi = styled.div`
     font-size: 2em;
   }
 `
-const GlavniDio = () => {
+const GlavniDio = ({ trazenje }) => {
   return (
     <Uredi>
       <Navbar expand="lg " fixed="top">
@@ -40,7 +40,12 @@ const GlavniDio = () => {
             </NavDropdown>
           </Nav>
           <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+            <FormControl
+              type="text"
+              placeholder="Search"
+              onChange={trazenje}
+              className="mr-sm-2"
+            />
             <Button variant="outline-success">Search</Button>
           </Form>
         </Navbar.Collapse>
