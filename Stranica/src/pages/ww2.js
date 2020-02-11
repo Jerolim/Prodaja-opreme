@@ -25,7 +25,7 @@ const Uredi3 = styled.div`
 ];
 */
 
-const Index = () => {
+const Ww2 = () => {
   // dajemo mu data to je sve podatke iz graphql
   // console.log(data);
   //const {menuItems}=data.site.siteMetadata;
@@ -45,7 +45,7 @@ const Index = () => {
                 paddingBottom: "0.25em",
               }}
             >
-              <h1>Weekly sale</h1>
+              <h1>World War II</h1>
             </Card.Body>
           </Card>
         </div>
@@ -59,7 +59,7 @@ const Index = () => {
   )
 }
 
-export default Index // bitno za eksportat podatke
+export default Ww2 // bitno za eksportat podatke
 /*
 export const query = graphql`
   {

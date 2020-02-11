@@ -3,7 +3,9 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Navigation from "./navigation"
 
-const Layout = ({ children }) => {
+const Layout = ({ usporedba }) => {
+  console.log("hi")
+  console.log(usporedba)
   const data = useStaticQuery(graphql`
     {
       slikice: allFile(
@@ -23,8 +25,7 @@ const Layout = ({ children }) => {
   `)
   return (
     <div>
-      <Navigation menuItems={data} />
-      {children}
+      <Navigation menuItems={data} podaci={usporedba} />
     </div>
   )
 }

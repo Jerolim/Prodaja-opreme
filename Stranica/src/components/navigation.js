@@ -1,9 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 import { Card, Button, Container } from "react-bootstrap"
+import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 import Img from "gatsby-image"
-const Predmeti = [
+let Predmeti = [
   {
     Naslov: "Slika1",
     Opis: "Veselimo se ovome opisu",
@@ -39,13 +40,29 @@ const Uredi234 = styled.div`
     margin-right: 15px;
   }
 `
-const Navigation = ({ menuItems }) => {
-  console.log(menuItems)
+const Navigation = () => {
   console.log(Predmeti)
+  const data = useStaticQuery(graphql`
+    {
+      slikice: allFile(
+        filter: { absolutePath: { regex: "/src/images/slikenaslovne//" } }
+      ) {
+        edges {
+          node {
+            childImageSharp {
+              fluid(maxHeight: 250, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    }
+  `)
   return (
     <Uredi234>
       <div className="row">
-        {menuItems.slikice.edges.map(({ node }, i) => {
+        {data.slikice.edges.map(({ node }, i) => {
           console.log(node.childImageSharp.fluid)
           console.log(i)
 

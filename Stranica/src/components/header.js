@@ -27,13 +27,13 @@ const GlavniDio = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/page2">About</Nav.Link>
-            <Nav.Link href="/page2">Blog</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/blog">Blog</Nav.Link>
             <NavDropdown title="Buy" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.4">Choose era</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/page2">WW1</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">WW2</NavDropdown.Item>
+              <NavDropdown.Item href="/ww2">WW2</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">
                 War of 1812
               </NavDropdown.Item>
