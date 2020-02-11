@@ -4,6 +4,7 @@ import { Card, Button, Container } from "react-bootstrap"
 import GlavniDio from "../components/header"
 import Footer from "../components/footer"
 import styled from "styled-components"
+import "bootstrap/dist/css/bootstrap.min.css"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 const UrediAbout = styled.div`
