@@ -1,6 +1,6 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
-import { Card, Button, Container } from "react-bootstrap"
+import { Card, Button, Container, Modal } from "react-bootstrap"
 import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 import Img from "gatsby-image"
@@ -15,6 +15,10 @@ const Uredi234 = styled.div`
   }
 `
 const Navigation = ({ Predmeti }) => {
+  const [show, setShow] = useState(false)
+
+  const handleClose = () => setShow(false)
+  const handleShow = () => setShow(true)
   console.log(Predmeti)
   console.log("hi2")
   const data = useStaticQuery(graphql`
@@ -36,6 +40,26 @@ const Navigation = ({ Predmeti }) => {
   `)
   return (
     <Uredi234>
+      <Modal
+        show={show}
+        onHide={handleClose}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title>Buy confirmation</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Do you want to continue with purchase</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Cancel
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Buy
+          </Button>
+        </Modal.Footer>
+      </Modal>
       <div className="row">
         {Predmeti.map((broj, i) => {
           return (
@@ -59,7 +83,7 @@ const Navigation = ({ Predmeti }) => {
                 <Card.Body>
                   <Card.Title>{broj.Naslov}</Card.Title>
                   <Card.Text>{broj.Opis}</Card.Text>
-                  <Button variant="primary" href="/proizvod1">
+                  <Button variant="primary" onClick={handleShow}>
                     Go somewhere
                   </Button>
                 </Card.Body>

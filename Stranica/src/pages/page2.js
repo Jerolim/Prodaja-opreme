@@ -1,19 +1,19 @@
 import React from "react"
-import { Link } from "gatsby" //služi za link na drugu stranicu
-import Layout from "../components/layout"
 import GlavniDio from "../components/header"
 import "bootstrap/dist/css/bootstrap.min.css"
 import Footer from "../components/footer"
 import styled from "styled-components"
+import BlogoviPost from "../components/blogoviPost"
+import { Card } from "react-bootstrap"
 const Uredis = styled.div`
-  margin-top: 100px;
+  margin-top: 70px;
 `
-console.log("hello p")
+
 const Page2 = () => {
   return (
     <Uredis>
       <GlavniDio></GlavniDio>
-
+      <BlogoviPost></BlogoviPost>
       <Footer></Footer>
     </Uredis>
   )

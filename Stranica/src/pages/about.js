@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 const UrediAbout = styled.div`
-  margin-top: 100px;
+  margin-top: 70px;
   .row {
     margin-left: 15px;
     margin-right: 15px;

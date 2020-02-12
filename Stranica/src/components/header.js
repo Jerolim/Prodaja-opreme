@@ -14,9 +14,17 @@ import styled from "styled-components"
 const Uredi = styled.div`
   .navbar {
     background-color: #fffaf0;
+    padding: 0rem 0rem;
   }
   .navbar-brand {
     font-size: 2em;
+    padding: 0.5rem 1rem;
+  }
+  .navbar-collapse {
+    padding-right: 0.5rem;
+  }
+  .navbar-nav .nav-link {
+    padding-left: 0.5em;
   }
 `
 const GlavniDio = ({ trazenje }) => {
@@ -28,11 +36,11 @@ const GlavniDio = ({ trazenje }) => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/blog">Blog</Nav.Link>
+            <Nav.Link href="/page2">Blog</Nav.Link>
             <NavDropdown title="Buy" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.4">Choose era</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/page2">WW1</NavDropdown.Item>
+              <NavDropdown.Item href="/ww2">WW1</NavDropdown.Item>
               <NavDropdown.Item href="/ww2">WW2</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">
                 War of 1812
