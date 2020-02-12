@@ -18,17 +18,17 @@ const Urediblogs = styled.div`
 `
 const Postovi = [
   {
-    Naslov: "Post1",
+    Naslov: "Fall of Rome",
     TekstPosta:
       "Danas je lijep dan i uzivamo u ovome gradu Danas je lijep dan i uzivamo u ovome gradu Danas je lijep dan i uzivamo u ovome gradu",
   },
   {
-    Naslov: "Post2",
+    Naslov: "Rise of British Empire",
     TekstPosta:
       "Danas je lep dan i uzivamo u ovome gradu Danas je lijep dan i uzivamo u ovome gradu Danas je lijep dan i uzivamo u ovome gradu",
   },
   {
-    Naslov: "Post3",
+    Naslov: "Tank tactics",
     TekstPosta:
       "Danas je lip dan i uzivamo u ovome gradu D agagagagagagagaanas je lijep dan i uzivamo u ovome gradu Danas je lijep dan i uzivamo u ovome gradu",
   },

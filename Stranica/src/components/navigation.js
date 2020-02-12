@@ -84,7 +84,7 @@ const Navigation = ({ Predmeti }) => {
                   <Card.Title>{broj.Naslov}</Card.Title>
                   <Card.Text>{broj.Opis}</Card.Text>
                   <Button variant="primary" onClick={handleShow}>
-                    Go somewhere
+                    Buy for {broj.Cijena}
                   </Button>
                 </Card.Body>
               </Card>

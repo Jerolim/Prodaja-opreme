@@ -17,28 +17,34 @@ const Uredi3 = styled.div`
 `
 const Proizvodi = [
   {
-    Naslov: "Vojska",
-    Opis: "Veselimo se ovome opisu",
+    Naslov: "German army helmet",
+    Opis: "Original ww2 helmet",
+    Cijena: "60 $",
   },
   {
     Naslov: "Vojarna",
     Opis: "Jeli radi slika ova sada",
+    Cijena: "50$",
   },
   {
     Naslov: "Patka",
     Opis: "Prodajem opremu svima jeftino",
+    Cijena: "40 $",
   },
   {
     Naslov: "Pumpa",
     Opis: "/page2",
+    Cijena: "90 $",
   },
   {
     Naslov: "Patkka",
     Opis: "ne ide",
+    Cijena: "110 $",
   },
   {
     Naslov: "PParty",
     Opis: "deri mali",
+    Cijena: "99 $",
   },
 ]
 

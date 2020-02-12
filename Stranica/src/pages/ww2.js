@@ -17,26 +17,32 @@ const Proizvodi = [
   {
     Naslov: "Vojska",
     Opis: "Veselimo se ovome opisu",
+    Cijena: "60 $",
   },
   {
     Naslov: "Vojarna",
     Opis: "Jeli radi slika ova sada",
+    Cijena: "60 $",
   },
   {
     Naslov: "Patka",
     Opis: "Prodajem opremu svima jeftino",
+    Cijena: "60 $",
   },
   {
     Naslov: "Pumpa",
     Opis: "/page2",
+    Cijena: "60 $",
   },
   {
     Naslov: "Patkka",
     Opis: "ne ide",
+    Cijena: "60 $",
   },
   {
     Naslov: "PParty",
     Opis: "deri mali",
+    Cijena: "60 $",
   },
 ]
 
@@ -61,6 +67,7 @@ class Ww2 extends Component {
   }
 
   render() {
+    console.log(Proizvodi)
     const { kartice, search } = this.state
     const filtrirano = kartice.filter(kartica => {
       if (kartica.Naslov.toLowerCase().includes(search.toLowerCase()))
