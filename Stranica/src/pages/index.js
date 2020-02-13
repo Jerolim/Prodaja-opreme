@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import styled from "styled-components"
 import { Container, Card } from "react-bootstrap"
 import { graphql } from "gatsby"
+import { handleLogin, handleLogout, isLoggedIn } from "../logiranje/authen"
 import Img from "gatsby-image"
 const Uredi3 = styled.div`
   margin-top: 70px;
@@ -82,6 +83,15 @@ class Index extends Component {
         <Img
           fluid={this.props.data.allFile.edges[0].node.childImageSharp.fluid}
         />
+        <a
+          href="/"
+          onClick={event => {
+            event.preventDefault()
+            handleLogout()
+          }}
+        >
+          Logout
+        </a>
         <div className="row">
           <div className="col-lg-12" align="center">
             <Card
