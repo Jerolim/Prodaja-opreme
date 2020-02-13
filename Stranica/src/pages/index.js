@@ -17,33 +17,33 @@ const Uredi3 = styled.div`
 `
 const Proizvodi = [
   {
-    Naslov: "German army helmet",
-    Opis: "Original ww2 helmet",
+    Naslov: "Vietnam war knife",
+    Opis: "Original war knife",
     Cijena: "60 $",
   },
   {
-    Naslov: "Vojarna",
-    Opis: "Jeli radi slika ova sada",
+    Naslov: "British helmet",
+    Opis: "World war I helemt",
     Cijena: "50$",
   },
   {
-    Naslov: "Patka",
-    Opis: "Prodajem opremu svima jeftino",
+    Naslov: "British boots",
+    Opis: "Used boots from second war",
     Cijena: "40 $",
   },
   {
-    Naslov: "Pumpa",
-    Opis: "/page2",
+    Naslov: "Soviet boots",
+    Opis: "Eastern front item",
     Cijena: "90 $",
   },
   {
-    Naslov: "Patkka",
-    Opis: "ne ide",
+    Naslov: "Vietnam war jacket",
+    Opis: "From Saigon offensive",
     Cijena: "110 $",
   },
   {
-    Naslov: "PParty",
-    Opis: "deri mali",
+    Naslov: "Vietnam war helmet",
+    Opis: "Helmet from Vietnam war",
     Cijena: "99 $",
   },
 ]

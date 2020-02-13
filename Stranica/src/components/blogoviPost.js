@@ -30,7 +30,17 @@ const Postovi = [
   {
     Naslov: "Tank tactics",
     TekstPosta:
-      "Danas je lip dan i uzivamo u ovome gradu D agagagagagagagaanas je lijep dan i uzivamo u ovome gradu Danas je lijep dan i uzivamo u ovome gradu",
+      "Danas jesssszivamo u ovome gradu D agagagagagagagaanas je lijep dan i uzivamo u ovome gradu Danas je lijep dan i uzivamo u ovome gradu",
+  },
+  {
+    Naslov: "Future of warfare",
+    TekstPosta:
+      "Danas je liaaaazivamo u ovome gradu D agagagagagagagaanas je lijep dan i uzivamo u ovome gradu Danas je lijep dan i uzivamo u ovome gradu",
+  },
+  {
+    Naslov: "Vietnam war",
+    TekstPosta:
+      "Danas je lipbbbivamo u ovome gradu D agagagagagagagaanas je lijep dan i uzivamo u ovome gradu Danas je lijep dan i uzivamo u ovome gradu",
   },
 ]
 const KomentariPostova = [
@@ -68,6 +78,16 @@ const KomentariPostova = [
     Komentator: "Matemffffic",
     TekstKomentara: "Prvi post koment 3 dio",
     Sifra: "0",
+  },
+  {
+    Komentator: "Matemffffic",
+    TekstKomentara: "cetvrti koment",
+    Sifra: "3",
+  },
+  {
+    Komentator: "Matemffffic",
+    TekstKomentara: "peti koment",
+    Sifra: "4",
   },
 ]
 function CustomToggle({ children, eventKey }) {
