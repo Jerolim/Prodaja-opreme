@@ -4,10 +4,13 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Footer from "../components/footer"
 import { Button, Modal, Nav } from "react-bootstrap"
 import { handleLogin, handleLogout, isLoggedIn } from "../logiranje/authen"
-
 import styled from "styled-components"
 const UrediLogIn = styled.div`
-  margin-top: 70px;
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 56px;
 `
 class LogIn extends Component {
   constructor(props) {
@@ -16,6 +19,7 @@ class LogIn extends Component {
       ime: "",
       sifra: "",
       show: false,
+      show1: false,
     }
   }
   //Pokupi ime
@@ -29,6 +33,9 @@ class LogIn extends Component {
   handleClose = () => {
     this.setState({ show: false })
   }
+  handleClose1 = () => {
+    this.setState({ show1: false })
+  }
   //Ako se desi submit
   handleSubmit = event => {
     event.preventDefault()
@@ -36,6 +43,7 @@ class LogIn extends Component {
     // usporedi stanje sa spremljenim handlelogin podacima
     const provjera = handleLogin(this.state)
     if (provjera.error) {
+      this.setState({ show1: true })
       return this.setState({ ime: "", sifra: "" })
     } else {
       this.setState({ show: true })
@@ -55,10 +63,28 @@ class LogIn extends Component {
           <Modal.Header closeButton>
             <Modal.Title>Login successful</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Do you want to continue with purchase</Modal.Body>
+          <Modal.Body>Welcome: {this.state.ime}</Modal.Body>
           <Modal.Footer>
             <Nav.Link href="/">About</Nav.Link>
             <Button variant="primary" onClick={this.handleClose}>
+              Buy
+            </Button>
+          </Modal.Footer>
+        </Modal>
+        <Modal
+          show={this.state.show1}
+          onHide={this.handleClose1}
+          size="lg"
+          aria-labelledby="contained-modal-title-vcenter"
+          centered
+        >
+          <Modal.Header closeButton>
+            <Modal.Title>Login failed</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>fail</Modal.Body>
+          <Modal.Footer>
+            <Nav.Link href="/login">About</Nav.Link>
+            <Button variant="primary" onClick={this.handleClose1}>
               Buy
             </Button>
           </Modal.Footer>

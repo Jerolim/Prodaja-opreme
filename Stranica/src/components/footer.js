@@ -14,6 +14,9 @@ const Uredi = styled.div`
     background-color: #fffaf0;
     display: flex;
     justify-content: end;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 `
 const Footer = () => {

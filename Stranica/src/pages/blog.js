@@ -6,7 +6,11 @@ import styled from "styled-components"
 import BlogoviPost from "../components/blogoviPost"
 import { Card } from "react-bootstrap"
 const Uredis = styled.div`
-  margin-top: 70px;
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 56px;
   .row {
     margin-left: 15px;
     margin-right: 15px;

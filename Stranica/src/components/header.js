@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import {
   Navbar,
   NavDropdown,
@@ -9,9 +9,16 @@ import {
   NavbarBrand,
 } from "react-bootstrap"
 import { Link } from "gatsby"
+import {
+  isLoggedIn,
+  getUser,
+  isBrowser,
+  handleLogout,
+} from "../logiranje/authen"
 
 import styled from "styled-components"
 const Uredi = styled.div`
+  margin-bottom: 70px;
   .navbar {
     background-color: #fffaf0;
     padding: 0rem 0rem;
@@ -19,12 +26,16 @@ const Uredi = styled.div`
   .navbar-brand {
     font-size: 2em;
     padding: 0.5rem 1rem;
+    font-style: italic;
+    font-weight: bold;
   }
   .navbar-collapse {
     padding-right: 0.5rem;
   }
   .navbar-nav .nav-link {
     padding-left: 0.5em;
+  }
+  .Odlogiranje {
   }
 `
 const GlavniDio = ({ trazenje }) => {

@@ -14,7 +14,7 @@ export const getUser = () =>
 const setUser = user =>
   window.localStorage.setItem("gatsbyUser", JSON.stringify(user))
 
-export const handleLogin = ({ ime, sifra, state }) => {
+export const handleLogin = ({ ime, sifra, show, show1 }) => {
   console.log("vozi")
   // hardcoded user John Doe
   if (ime === `john` && sifra === `password`) {
