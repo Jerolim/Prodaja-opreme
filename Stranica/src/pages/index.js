@@ -24,31 +24,37 @@ const Proizvodi = [
     Naslov: "Vietnam war knife",
     Opis: "Original war knife",
     Cijena: "60 $",
+    code: "vslika1",
   },
   {
     Naslov: "British helmet",
     Opis: "World war I helemt",
     Cijena: "50$",
+    code: "vslika2",
   },
   {
     Naslov: "British boots",
     Opis: "Used boots from second war",
     Cijena: "40 $",
+    code: "vslika3",
   },
   {
     Naslov: "Soviet boots",
     Opis: "Eastern front item",
     Cijena: "90 $",
+    code: "vslika4",
   },
   {
     Naslov: "Vietnam war jacket",
     Opis: "From Saigon offensive",
     Cijena: "110 $",
+    code: "vslika5",
   },
   {
     Naslov: "Vietnam war helmet",
     Opis: "Helmet from Vietnam war",
     Cijena: "99 $",
+    code: "vslika6",
   },
 ]
 
