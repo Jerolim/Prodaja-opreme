@@ -19,29 +19,34 @@ const Uredi3 = styled.div`
 `
 const Proizvodi = [
   {
-    Naslov: "slika1",
+    Naslov: "jaketa1",
     Opis: "Veffff",
     Cijena: "90 $",
+    code: "vslika1",
   },
   {
-    Naslov: "slika2",
+    Naslov: "jaket2",
     Opis: "Jeliasesada",
     Cijena: "60 $",
+    code: "vslika2",
   },
   {
-    Naslov: "slika3",
+    Naslov: "cizme",
     Opis: "Proaepremu svima jeftino",
     Cijena: "60 $",
+    code: "vslika3",
   },
   {
-    Naslov: "slika4",
+    Naslov: "kaciga",
     Opis: "aaea",
-    Cijena: "60 $",
+    Cijena: "20 $",
+    code: "vslika4",
   },
   {
-    Naslov: "slika5",
+    Naslov: "pistol",
     Opis: "wwwe",
     Cijena: "60 $",
+    code: "vslika5",
   },
 ]
 

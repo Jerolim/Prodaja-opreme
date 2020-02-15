@@ -38,6 +38,8 @@ const Navigationww1 = ({ Predmeti }) => {
       }
     }
   `)
+  console.log(data.slikice.edges)
+  console.log()
   return (
     <Uredi234>
       <Modal
@@ -80,11 +82,20 @@ const Navigationww1 = ({ Predmeti }) => {
         </Modal.Footer>
       </Modal>
       <div className="row">
-        {Predmeti.map((broj, i) => {
+        {Predmeti.map(broj => {
+          const filtarslika = data.slikice.edges.filter(slika => {
+            if (slika.node.childImageSharp.fluid.src.includes(broj.code)) {
+              console.log(slika.node.childImageSharp.fluid.src)
+              console.log("deri")
+              return slika
+            }
+          })
+          console.log("kraj")
+          console.log(filtarslika)
           return (
             <div
               className="col-lg-3 col-md-4 col-sm-6"
-              key={data.slikice.edges[i].node.childImageSharp.fluid.src}
+              key={filtarslika[0].node.childImageSharp.fluid.src}
               align="center"
             >
               <Card
@@ -96,7 +107,7 @@ const Navigationww1 = ({ Predmeti }) => {
                 <Img
                   style={{ maxHeight: "100%" }}
                   imgStyle={{ objectFit: "contain" }}
-                  fluid={data.slikice.edges[i].node.childImageSharp.fluid}
+                  fluid={filtarslika[0].node.childImageSharp.fluid}
                 />
 
                 <Card.Body>
