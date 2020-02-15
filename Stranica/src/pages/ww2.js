@@ -22,31 +22,31 @@ const Proizvodi = [
     Naslov: "jaketa1",
     Opis: "Veffff",
     Cijena: "90 $",
-    code: "vslika1",
+    code: "w2slika1",
   },
   {
     Naslov: "jaket2",
     Opis: "Jeliasesada",
     Cijena: "60 $",
-    code: "vslika2",
+    code: "w2slika2",
   },
   {
     Naslov: "cizme",
     Opis: "Proaepremu svima jeftino",
     Cijena: "60 $",
-    code: "vslika3",
+    code: "w2slika3",
   },
   {
     Naslov: "kaciga",
     Opis: "aaea",
     Cijena: "20 $",
-    code: "vslika4",
+    code: "w2slika4",
   },
   {
     Naslov: "pistol",
     Opis: "wwwe",
     Cijena: "60 $",
-    code: "vslika5",
+    code: "w2slika5",
   },
 ]
 
