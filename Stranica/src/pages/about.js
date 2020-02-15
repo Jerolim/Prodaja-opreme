@@ -51,17 +51,9 @@ const About = ({ data }) => {
           />
         </div>
         <div className="col-lg-6 col-md-8 col-sm-12">
-          <h2>O nama:</h2>
+          <h2>Info:</h2>
           <p>
-            Mi smo uspjesna tvrtka i bavimo se dobrim poslom i nadamo se uspjehu
-            smo uspjesna tvrtka i bavimo se dobrim poslom i nadamo se uspjehu
-            smo uspjesna tvrtka i bavimo se dobrim poslom i nadamo se uspjehu Mi
-            smo uspjesna tvrtka i bavimo se dobrim poslom i nadamo se uspjehu
-            smo uspjesna tvrtka i bavimo se dobrim poslom i nadamo se uspjehu
-            smo uspjesna tvrtka i bavimo se dobrim poslom i nadamo se uspjehu Mi
-            smo uspjesna tvrtka i bavimo se dobrim poslom i nadamo se uspjehu
-            smo uspjesna tvrtka i bavimo se dobrim poslom i nadamo se uspjehu
-            smo uspjesna tvrtka i bavimo se dobrim poslom i nadamo se uspjehu
+            We are a young company specializing in sale of history equipment.
           </p>
           <h2>O podacima:</h2>
           <p>

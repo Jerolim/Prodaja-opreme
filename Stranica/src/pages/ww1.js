@@ -19,33 +19,33 @@ const Uredi3 = styled.div`
 `
 const Proizvodi = [
   {
-    Naslov: "Pistol1",
-    Opis: "Veffff",
+    Naslov: "Pistol",
+    Opis: "Original used pistol",
     Cijena: "90 $",
     code: "w1slika1",
   },
   {
-    Naslov: "Pisto2",
-    Opis: "Jeliasesada",
+    Naslov: "Pistol version 2",
+    Opis: "Good condition",
     Cijena: "60 $",
     code: "w1slika2",
   },
   {
-    Naslov: "medal1",
-    Opis: "Proaeoooo svima jeftino",
+    Naslov: "Victory medal",
+    Opis: "US medal of 1918",
     Cijena: "60 $",
     code: "w1slika3",
   },
   {
-    Naslov: "meda2",
-    Opis: "aaea",
-    Cijena: "60 $",
+    Naslov: "Medal",
+    Opis: "Good shape medal",
+    Cijena: "50 $",
     code: "w1slika4",
   },
   {
-    Naslov: "puska1",
-    Opis: "wwwe",
-    Cijena: "60 $",
+    Naslov: "War rifle",
+    Opis: "WW1 rifle",
+    Cijena: "110 $",
     code: "w1slika5",
   },
 ]

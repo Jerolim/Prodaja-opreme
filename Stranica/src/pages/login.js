@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import GlavniDio from "../components/header"
 import "bootstrap/dist/css/bootstrap.min.css"
 import Footer from "../components/footer"
-import { Button, Modal, Nav } from "react-bootstrap"
+import { Button, Modal, Nav, Card, Container } from "react-bootstrap"
 import { handleLogin, handleLogout, isLoggedIn } from "../logiranje/authen"
 import styled from "styled-components"
 const UrediLogIn = styled.div`
@@ -88,25 +88,52 @@ class LogIn extends Component {
             </Button>
           </Modal.Footer>
         </Modal>
-        <form onSubmit={this.handleSubmit}>
-          <label>
-            Name:
-            <input
-              type="text"
-              value={this.state.ime}
-              onChange={this.handleIme}
-            />
-          </label>
-          <label>
-            Password:
-            <input
-              type="text"
-              value={this.state.sifra}
-              onChange={this.handleSifra}
-            />
-          </label>
-          <input type="submit" value="Submit" />
-        </form>
+        <div className="row">
+          <div className="col-lg-12" align="center">
+            <Card
+              style={{
+                border: "0px",
+              }}
+            >
+              <Card.Body>
+                <h1>Login</h1>
+              </Card.Body>
+            </Card>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-12" align="center">
+            <Card
+              style={{
+                maxWidth: "24rem",
+              }}
+            >
+              <Card.Body style={{ backgroundColor: " #fcfcfc" }}>
+                <form onSubmit={this.handleSubmit}>
+                  <label>
+                    Name:
+                    <input
+                      type="text"
+                      value={this.state.ime}
+                      onChange={this.handleIme}
+                    />
+                  </label>
+                  <br></br>
+                  <label>
+                    Password:
+                    <input
+                      type="text"
+                      value={this.state.sifra}
+                      onChange={this.handleSifra}
+                    />
+                  </label>
+                  <br></br>
+                  <input type="submit" value="Submit" />
+                </form>
+              </Card.Body>
+            </Card>
+          </div>
+        </div>
         <Footer></Footer>
       </UrediLogIn>
     )

@@ -19,32 +19,32 @@ const Uredi3 = styled.div`
 `
 const Proizvodi = [
   {
-    Naslov: "jaketa1",
-    Opis: "Veffff",
+    Naslov: "USA army jacket",
+    Opis: "Used in pacific campaign",
     Cijena: "90 $",
     code: "w2slika1",
   },
   {
-    Naslov: "jaket2",
-    Opis: "Jeliasesada",
+    Naslov: "Swedish army jacket",
+    Opis: "Used in finish war",
     Cijena: "60 $",
     code: "w2slika2",
   },
   {
-    Naslov: "cizme",
-    Opis: "Proaepremu svima jeftino",
+    Naslov: "British boots",
+    Opis: "Not used boots",
     Cijena: "60 $",
     code: "w2slika3",
   },
   {
-    Naslov: "kaciga",
-    Opis: "aaea",
+    Naslov: "French helmet",
+    Opis: "Original solid condition helmet",
     Cijena: "20 $",
     code: "w2slika4",
   },
   {
-    Naslov: "pistol",
-    Opis: "wwwe",
+    Naslov: "Pistol",
+    Opis: "Perfect condition",
     Cijena: "60 $",
     code: "w2slika5",
   },

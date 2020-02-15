@@ -19,33 +19,33 @@ const Uredi3 = styled.div`
 `
 const Proizvodi = [
   {
-    Naslov: "slika1",
-    Opis: "Veffff",
+    Naslov: "Vietnam medal",
+    Opis: "Medal for victory",
     Cijena: "90 $",
     code: "vslika1",
   },
   {
-    Naslov: "slika2",
-    Opis: "Jeliasesada",
-    Cijena: "60 $",
+    Naslov: "US army boots",
+    Opis: "Used in Vietnam jungle",
+    Cijena: "30 $",
     code: "vslika2",
   },
   {
-    Naslov: "slica",
-    Opis: "oleoo svima jeftino",
+    Naslov: "US army helmet",
+    Opis: "Used helmet with names",
     Cijena: "60 $",
     code: "vslika3",
   },
   {
-    Naslov: "paka",
-    Opis: "aaea",
-    Cijena: "60 $",
+    Naslov: "Vietnam jacket",
+    Opis: "Original army issued",
+    Cijena: "99 $",
     code: "vslika4",
   },
   {
-    Naslov: "panda",
-    Opis: "wwwe",
-    Cijena: "60 $",
+    Naslov: "Purple heart",
+    Opis: "Medal for bravery",
+    Cijena: "120 $",
     code: "vslika5",
   },
 ]
