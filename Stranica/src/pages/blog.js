@@ -28,11 +28,7 @@ const Page2 = () => {
               border: "0px",
             }}
           >
-            <Card.Body
-              style={{
-                paddingBottom: "0.25em",
-              }}
-            >
+            <Card.Body>
               <h1>Blog</h1>
             </Card.Body>
           </Card>

@@ -14,7 +14,7 @@ const Uredi234 = styled.div`
     margin-right: 15px;
   }
 `
-const Navigation = ({ Predmeti }) => {
+const Navigationww1 = ({ Predmeti }) => {
   const [show, setShow] = useState(false)
 
   const handleClose = () => setShow(false)
@@ -24,7 +24,7 @@ const Navigation = ({ Predmeti }) => {
   const data = useStaticQuery(graphql`
     {
       slikice: allFile(
-        filter: { absolutePath: { regex: "/src/images/slikenaslovne//" } }
+        filter: { absolutePath: { regex: "/src/images/slikeww1//" } }
       ) {
         edges {
           node {
@@ -120,5 +120,5 @@ const Navigation = ({ Predmeti }) => {
     </Uredi234>
   )
 }
-export default Navigation
+export default Navigationww1
 //<Card.Img variant="top" fluid={node.childImageSharp.fluid} />

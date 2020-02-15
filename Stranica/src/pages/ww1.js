@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 // import { graphql } from "gatsby"
-import Navigationww2 from "../components/navigationww2"
+import Navigationww1 from "../components/navigationww1"
 import GlavniDio from "../components/header"
 import Footer from "../components/footer"
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -19,18 +19,18 @@ const Uredi3 = styled.div`
 `
 const Proizvodi = [
   {
-    Naslov: "slika1",
+    Naslov: "slgaga",
     Opis: "Veffff",
     Cijena: "90 $",
   },
   {
-    Naslov: "slika2",
+    Naslov: "slikgggg",
     Opis: "Jeliasesada",
     Cijena: "60 $",
   },
   {
-    Naslov: "slika3",
-    Opis: "Proaepremu svima jeftino",
+    Naslov: "slikaewew",
+    Opis: "Proaeoooo svima jeftino",
     Cijena: "60 $",
   },
   {
@@ -39,13 +39,13 @@ const Proizvodi = [
     Cijena: "60 $",
   },
   {
-    Naslov: "slika5",
+    Naslov: "slika99",
     Opis: "wwwe",
     Cijena: "60 $",
   },
 ]
 
-class Ww2 extends Component {
+class Ww1 extends Component {
   // dajemo mu data to je sve podatke iz graphql
   // console.log(data);
   //const {menuItems}=data.site.siteMetadata;
@@ -83,13 +83,13 @@ class Ww2 extends Component {
               }}
             >
               <Card.Body>
-                <h1>World war II</h1>
+                <h1>World war I</h1>
               </Card.Body>
             </Card>
           </div>
         </div>
         <div>
-          <Navigationww2 Predmeti={filtrirano}></Navigationww2>
+          <Navigationww1 Predmeti={filtrirano}></Navigationww1>
         </div>
 
         <Footer></Footer>
@@ -98,4 +98,4 @@ class Ww2 extends Component {
   }
 }
 
-export default Ww2 // bitno za eksportat podatke
+export default Ww1 // bitno za eksportat podatke

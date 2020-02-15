@@ -14,17 +14,17 @@ const Uredi234 = styled.div`
     margin-right: 15px;
   }
 `
-const Navigation = ({ Predmeti }) => {
+const Navigationvietnam = ({ Predmeti }) => {
   const [show, setShow] = useState(false)
 
   const handleClose = () => setShow(false)
   const handleShow = () => setShow(true)
   console.log(Predmeti)
-  console.log("hi2")
+
   const data = useStaticQuery(graphql`
     {
       slikice: allFile(
-        filter: { absolutePath: { regex: "/src/images/slikenaslovne//" } }
+        filter: { absolutePath: { regex: "/src/images/slikevietnam//" } }
       ) {
         edges {
           node {
@@ -38,6 +38,7 @@ const Navigation = ({ Predmeti }) => {
       }
     }
   `)
+  // console.log(data.slikice.edges[0].node.childImageSharp.fluid.src)
   return (
     <Uredi234>
       <Modal
@@ -81,44 +82,54 @@ const Navigation = ({ Predmeti }) => {
       </Modal>
       <div className="row">
         {Predmeti.map((broj, i) => {
-          return (
-            <div
-              className="col-lg-3 col-md-4 col-sm-6"
-              key={data.slikice.edges[i].node.childImageSharp.fluid.src}
-              align="center"
-            >
-              <Card
-                style={{
-                  marginRight: "0px",
-                  maxWidth: "18rem",
-                }}
+          console.log(broj.code)
+          if (
+            data.slikice.edges[i].node.childImageSharp.fluid.src.includes(
+              "vslika"
+            )
+          ) {
+            console.log("ima")
+            return (
+              <div
+                className="col-lg-3 col-md-4 col-sm-6"
+                key={data.slikice.edges[i].node.childImageSharp.fluid.src}
+                align="center"
               >
-                <Img
-                  style={{ maxHeight: "100%" }}
-                  imgStyle={{ objectFit: "contain" }}
-                  fluid={data.slikice.edges[i].node.childImageSharp.fluid}
-                />
+                <Card
+                  style={{
+                    marginRight: "0px",
+                    maxWidth: "18rem",
+                  }}
+                >
+                  <Img
+                    style={{ maxHeight: "100%" }}
+                    imgStyle={{ objectFit: "contain" }}
+                    fluid={data.slikice.edges[i].node.childImageSharp.fluid}
+                  />
 
-                <Card.Body>
-                  <Card.Title>{broj.Naslov}</Card.Title>
-                  <Card.Text>{broj.Opis}</Card.Text>
-                  <Button
-                    variant="primary"
-                    onClick={handleShow}
-                    style={{
-                      width: "100%",
-                    }}
-                  >
-                    Buy for {broj.Cijena}
-                  </Button>
-                </Card.Body>
-              </Card>
-            </div>
-          )
+                  <Card.Body>
+                    <Card.Title>{broj.Naslov}</Card.Title>
+                    <Card.Text>{broj.Opis}</Card.Text>
+                    <Button
+                      variant="primary"
+                      onClick={handleShow}
+                      style={{
+                        width: "100%",
+                      }}
+                    >
+                      Buy for {broj.Cijena}
+                    </Button>
+                  </Card.Body>
+                </Card>
+              </div>
+            )
+          } else {
+            return
+          }
         })}
       </div>
     </Uredi234>
   )
 }
-export default Navigation
+export default Navigationvietnam
 //<Card.Img variant="top" fluid={node.childImageSharp.fluid} />

@@ -13,7 +13,11 @@ const Urediblogs = styled.div`
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   }
   .korisnikUredi {
+    font-weight: bold;
     color: blue;
+  }
+  .blogKomentar {
+    margin-bottom: 0;
   }
 `
 const Postovi = [
@@ -46,47 +50,47 @@ const Postovi = [
 const KomentariPostova = [
   {
     Komentator: "Matematic",
-    TekstKomentara: "Prvipost koment",
+    TekstKomentara: " Prvipost koment",
     Sifra: "0",
   },
   {
     Komentator: "RodeRodic",
-    TekstKomentara: "Drugi post koment",
+    TekstKomentara: " Drugi post koment",
     Sifra: "1",
   },
   {
     Komentator: "Mafafac",
-    TekstKomentara: "Treci post koment",
+    TekstKomentara: " Treci post koment",
     Sifra: "2",
   },
   {
     Komentator: "Mwewwac",
-    TekstKomentara: "prvi psot koment 2 dio",
+    TekstKomentara: " prvi psot koment 2 dio",
     Sifra: "0",
   },
   {
     Komentator: "Mfeawfa",
-    TekstKomentara: "drugi post koment 2 dio",
+    TekstKomentara: " drugi post koment 2 dio",
     Sifra: "1",
   },
   {
     Komentator: "Mataseic",
-    TekstKomentara: "treci post koment 2 dio",
+    TekstKomentara: " treci post koment 2 dio",
     Sifra: "2",
   },
   {
     Komentator: "Matemffffic",
-    TekstKomentara: "Prvi post koment 3 dio",
+    TekstKomentara: " Prvi post koment 3 dio",
     Sifra: "0",
   },
   {
     Komentator: "Matemffffic",
-    TekstKomentara: "cetvrti koment",
+    TekstKomentara: " cetvrti koment",
     Sifra: "3",
   },
   {
     Komentator: "Matemffffic",
-    TekstKomentara: "peti koment",
+    TekstKomentara: " peti koment",
     Sifra: "4",
   },
 ]
@@ -119,10 +123,14 @@ function BlogoviPost() {
                 <Accordion.Collapse eventKey={broj.Naslov}>
                   <Card.Body>
                     <p>{broj.TekstPosta}</p>
+                    <hr></hr>
                     {KomentariPostova.map(broj2 => {
                       if (broj2.Sifra.includes(i.toString()))
                         return (
-                          <p key={broj2.TekstKomentara}>
+                          <p
+                            key={broj2.TekstKomentara}
+                            className="blogKomentar"
+                          >
                             <label className="korisnikUredi">
                               {broj2.Komentator}:
                             </label>
@@ -133,7 +141,7 @@ function BlogoviPost() {
                   </Card.Body>
                 </Accordion.Collapse>
                 <Card.Body align="center">
-                  <CustomToggle eventKey={broj.Naslov}>Click me!</CustomToggle>
+                  <CustomToggle eventKey={broj.Naslov}>Expand</CustomToggle>
                 </Card.Body>
               </Card>
             )

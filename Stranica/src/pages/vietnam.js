@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 // import { graphql } from "gatsby"
-import Navigationww2 from "../components/navigationww2"
+import Navigationvietnam from "../components/navigationvietnam"
 import GlavniDio from "../components/header"
 import Footer from "../components/footer"
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -19,33 +19,38 @@ const Uredi3 = styled.div`
 `
 const Proizvodi = [
   {
-    Naslov: "slika1",
+    Naslov: "vietnamos",
     Opis: "Veffff",
     Cijena: "90 $",
+    code: "vslika1",
   },
   {
-    Naslov: "slika2",
+    Naslov: "forestino",
     Opis: "Jeliasesada",
     Cijena: "60 $",
+    code: "vslika2",
   },
   {
-    Naslov: "slika3",
-    Opis: "Proaepremu svima jeftino",
+    Naslov: "slikaewew",
+    Opis: "oleoo svima jeftino",
     Cijena: "60 $",
+    code: "vslika3",
   },
   {
     Naslov: "slika4",
     Opis: "aaea",
     Cijena: "60 $",
+    code: "vslika4",
   },
   {
-    Naslov: "slika5",
+    Naslov: "slika99",
     Opis: "wwwe",
     Cijena: "60 $",
+    code: "vslika5",
   },
 ]
 
-class Ww2 extends Component {
+class Vietnam extends Component {
   // dajemo mu data to je sve podatke iz graphql
   // console.log(data);
   //const {menuItems}=data.site.siteMetadata;
@@ -83,13 +88,13 @@ class Ww2 extends Component {
               }}
             >
               <Card.Body>
-                <h1>World war II</h1>
+                <h1>Vietnam war</h1>
               </Card.Body>
             </Card>
           </div>
         </div>
         <div>
-          <Navigationww2 Predmeti={filtrirano}></Navigationww2>
+          <Navigationvietnam Predmeti={filtrirano}></Navigationvietnam>
         </div>
 
         <Footer></Footer>
@@ -98,4 +103,4 @@ class Ww2 extends Component {
   }
 }
 
-export default Ww2 // bitno za eksportat podatke
+export default Vietnam // bitno za eksportat podatke

@@ -53,6 +53,7 @@ class LogIn extends Component {
     console.log(this.state.ime)
     return (
       <UrediLogIn>
+        <GlavniDio></GlavniDio>
         <Modal
           show={this.state.show}
           onHide={this.handleClose}
@@ -65,9 +66,8 @@ class LogIn extends Component {
           </Modal.Header>
           <Modal.Body>Welcome: {this.state.ime}</Modal.Body>
           <Modal.Footer>
-            <Nav.Link href="/">About</Nav.Link>
-            <Button variant="primary" onClick={this.handleClose}>
-              Buy
+            <Button variant="primary" href="/">
+              Go shopping
             </Button>
           </Modal.Footer>
         </Modal>
@@ -81,11 +81,10 @@ class LogIn extends Component {
           <Modal.Header closeButton>
             <Modal.Title>Login failed</Modal.Title>
           </Modal.Header>
-          <Modal.Body>fail</Modal.Body>
+          <Modal.Body>Wrong name or password, please try again.</Modal.Body>
           <Modal.Footer>
-            <Nav.Link href="/login">About</Nav.Link>
             <Button variant="primary" onClick={this.handleClose1}>
-              Buy
+              Cancel
             </Button>
           </Modal.Footer>
         </Modal>
@@ -99,7 +98,7 @@ class LogIn extends Component {
             />
           </label>
           <label>
-            Sifra:
+            Password:
             <input
               type="text"
               value={this.state.sifra}
@@ -108,6 +107,7 @@ class LogIn extends Component {
           </label>
           <input type="submit" value="Submit" />
         </form>
+        <Footer></Footer>
       </UrediLogIn>
     )
   }

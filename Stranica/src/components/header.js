@@ -18,7 +18,7 @@ import {
 
 import styled from "styled-components"
 const Uredi = styled.div`
-  margin-bottom: 70px;
+  margin-bottom: 60px;
   .navbar {
     background-color: #fffaf0;
     padding: 0rem 0rem;
@@ -35,8 +35,6 @@ const Uredi = styled.div`
   .navbar-nav .nav-link {
     padding-left: 0.5em;
   }
-  .Odlogiranje {
-  }
 `
 const GlavniDio = ({ trazenje }) => {
   return (
@@ -48,18 +46,19 @@ const GlavniDio = ({ trazenje }) => {
           <Nav className="mr-auto">
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/blog">Blog</Nav.Link>
-            <NavDropdown title="Buy" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.4" disabled>
-                Choose era
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/ww2">WW1</NavDropdown.Item>
+            <NavDropdown title="Choose era" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/ww1">WW1</NavDropdown.Item>
               <NavDropdown.Item href="/ww2">WW2</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
-                Vietnam war
-              </NavDropdown.Item>
+              <NavDropdown.Item href="/vietnam">Vietnam war</NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          <Button
+            variant="outline-success"
+            href="/login"
+            style={{ margin: "5px" }}
+          >
+            Profile
+          </Button>
           <Form inline>
             <FormControl
               type="text"
@@ -67,7 +66,6 @@ const GlavniDio = ({ trazenje }) => {
               onChange={trazenje}
               className="mr-sm-2"
             />
-            <Button variant="outline-success">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Navbar>
