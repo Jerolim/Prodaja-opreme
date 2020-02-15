@@ -17,11 +17,11 @@ const setUser = user =>
 export const handleLogin = ({ ime, sifra, show, show1 }) => {
   console.log("vozi")
   // hardcoded user John Doe
-  if (ime === `john` && sifra === `password`) {
+  if (ime === `jere` && sifra === `jere123`) {
     setUser({
-      ime: `john`,
-      name: `John Doe`,
-      email: `johndoe@fesb.hr`,
+      ime: `jere`,
+      name: `marca`,
+      email: `jmarca@gmail.com`,
     })
 
     return {
