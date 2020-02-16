@@ -145,7 +145,7 @@ const KomentariPostova = [
   },
   {
     Komentator: "Queen of England",
-    TekstKomentara: " ALL HAIL HER MAJESTY",
+    TekstKomentara: " ALL EMBRACE HER MAJESTY",
     Sifra: "1",
   },
   {
@@ -201,7 +201,7 @@ const KomentariPostova = [
   },
   {
     Komentator: "Queen of England",
-    TekstKomentara: " ALL HAIL HER MAJESTY",
+    TekstKomentara: " ALL EMBRACE HER MAJESTY",
     Sifra: "6",
   },
   {
@@ -257,7 +257,7 @@ const KomentariPostova = [
   },
   {
     Komentator: "Queen of England",
-    TekstKomentara: " ALL HAIL HER MAJESTY",
+    TekstKomentara: " ALL EMBRACE HER MAJESTY",
     Sifra: "11",
   },
   {
@@ -313,7 +313,7 @@ const KomentariPostova = [
   },
   {
     Komentator: "Queen of England",
-    TekstKomentara: " ALL HAIL HER MAJESTY",
+    TekstKomentara: " ALL EMBRACE HER MAJESTY",
     Sifra: "16",
   },
   {
