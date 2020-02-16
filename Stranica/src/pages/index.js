@@ -5,8 +5,9 @@ import GlavniDio from "../components/header"
 import Footer from "../components/footer"
 import "bootstrap/dist/css/bootstrap.min.css"
 import styled from "styled-components"
-import { Container, Card } from "react-bootstrap"
+import { Card } from "react-bootstrap"
 import { graphql } from "gatsby"
+import SEO from "../components/seo"
 import Img from "gatsby-image"
 const Uredi3 = styled.div`
   min-height: 100vh; /* will cover the 100% of viewport */
@@ -80,7 +81,7 @@ class Index extends Component {
 
   render() {
     console.log(this.props.data)
-    console.log("oj")
+
     const { kartice, search } = this.state
     const filtrirano = kartice.filter(kartica => {
       if (kartica.Naslov.toLowerCase().includes(search.toLowerCase()))
@@ -88,6 +89,7 @@ class Index extends Component {
     })
     return (
       <Uredi3>
+        <SEO title="index" />
         <GlavniDio trazenje={this.onSearchChange}></GlavniDio>
         <Img
           fluid={this.props.data.allFile.edges[0].node.childImageSharp.fluid}

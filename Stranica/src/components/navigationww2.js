@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react"
-import { Link } from "gatsby"
-import { Card, Button, Container, Modal } from "react-bootstrap"
+import React, { useState } from "react"
+
+import { Card, Button, Modal } from "react-bootstrap"
 import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 import Img from "gatsby-image"
@@ -19,8 +19,7 @@ const Navigationww2 = ({ Predmeti }) => {
 
   const handleClose = () => setShow(false)
   const handleShow = () => setShow(true)
-  console.log(Predmeti)
-  console.log("hi2")
+
   const data = useStaticQuery(graphql`
     {
       slikice: allFile(
@@ -38,8 +37,7 @@ const Navigationww2 = ({ Predmeti }) => {
       }
     }
   `)
-  console.log(data.slikice.edges)
-  console.log()
+
   return (
     <Uredi234>
       <Modal
@@ -85,13 +83,10 @@ const Navigationww2 = ({ Predmeti }) => {
         {Predmeti.map(broj => {
           const filtarslika = data.slikice.edges.filter(slika => {
             if (slika.node.childImageSharp.fluid.src.includes(broj.code)) {
-              console.log(slika.node.childImageSharp.fluid.src)
-              console.log("deri")
               return slika
             }
           })
-          console.log("kraj")
-          console.log(filtarslika)
+
           return (
             <div
               className="col-lg-3 col-md-4 col-sm-6"

@@ -2,9 +2,10 @@ import React, { Component } from "react"
 import GlavniDio from "../components/header"
 import "bootstrap/dist/css/bootstrap.min.css"
 import Footer from "../components/footer"
-import { Button, Modal, Nav, Card, Container } from "react-bootstrap"
-import { handleLogin, handleLogout, isLoggedIn } from "../logiranje/authen"
+import { Button, Modal, Card } from "react-bootstrap"
+import { handleLogin } from "../logiranje/authen"
 import styled from "styled-components"
+import SEO from "../components/seo"
 const UrediLogIn = styled.div`
   min-height: 100vh; /* will cover the 100% of viewport */
   overflow: hidden;
@@ -50,9 +51,9 @@ class LogIn extends Component {
     }
   }
   render() {
-    console.log(this.state.ime)
     return (
       <UrediLogIn>
+        <SEO title="login" />
         <GlavniDio></GlavniDio>
         <Modal
           show={this.state.show}

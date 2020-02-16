@@ -4,8 +4,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import Navigation from "./navigation"
 
 const Layout = ({ usporedba }) => {
-  console.log("hi")
-  console.log(usporedba)
   const data = useStaticQuery(graphql`
     {
       slikice: allFile(

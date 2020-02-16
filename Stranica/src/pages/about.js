@@ -1,12 +1,13 @@
 import React from "react"
 // import { graphql } from "gatsby"
-import { Card, Button, Container } from "react-bootstrap"
+import { Card } from "react-bootstrap"
 import GlavniDio from "../components/header"
 import Footer from "../components/footer"
 import styled from "styled-components"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import SEO from "../components/seo"
 const UrediAbout = styled.div`
   min-height: 100vh; /* will cover the 100% of viewport */
   overflow: hidden;
@@ -20,10 +21,9 @@ const UrediAbout = styled.div`
   }
 `
 const About = ({ data }) => {
-  console.log(data.allFile.edges[0].node)
-
   return (
     <UrediAbout>
+      <SEO title="about" />
       <GlavniDio></GlavniDio>
       <div className="row">
         <div className="col-lg-12" align="center">

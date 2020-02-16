@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import {
   Navbar,
   NavDropdown,
@@ -8,14 +8,6 @@ import {
   Button,
   NavbarBrand,
 } from "react-bootstrap"
-import { Link } from "gatsby"
-import {
-  isLoggedIn,
-  getUser,
-  isBrowser,
-  handleLogout,
-} from "../logiranje/authen"
-
 import styled from "styled-components"
 const Uredi = styled.div`
   margin-bottom: 60px;

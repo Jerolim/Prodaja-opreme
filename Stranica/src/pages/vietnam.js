@@ -5,7 +5,8 @@ import GlavniDio from "../components/header"
 import Footer from "../components/footer"
 import "bootstrap/dist/css/bootstrap.min.css"
 import styled from "styled-components"
-import { Container, Card } from "react-bootstrap"
+import { Card } from "react-bootstrap"
+import SEO from "../components/seo"
 const Uredi3 = styled.div`
   min-height: 100vh; /* will cover the 100% of viewport */
   overflow: hidden;
@@ -71,7 +72,6 @@ class Vietnam extends Component {
   }
 
   render() {
-    console.log(Proizvodi)
     const { kartice, search } = this.state
     const filtrirano = kartice.filter(kartica => {
       if (kartica.Naslov.toLowerCase().includes(search.toLowerCase()))
@@ -79,6 +79,7 @@ class Vietnam extends Component {
     })
     return (
       <Uredi3>
+        <SEO title="vietnam" />
         <GlavniDio trazenje={this.onSearchChange}></GlavniDio>
         <div className="row">
           <div className="col-lg-12" align="center">

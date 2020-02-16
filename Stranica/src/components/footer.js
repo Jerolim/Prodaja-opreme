@@ -1,13 +1,5 @@
 import React from "react"
-import {
-  Navbar,
-  NavDropdown,
-  Nav,
-  Form,
-  FormControl,
-  Button,
-  NavbarBrand,
-} from "react-bootstrap"
+import { Navbar, Nav } from "react-bootstrap"
 import styled from "styled-components"
 const Uredi = styled.div`
   .navbar {

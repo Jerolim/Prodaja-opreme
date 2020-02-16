@@ -5,6 +5,7 @@ import Footer from "../components/footer"
 import styled from "styled-components"
 import BlogoviPost from "../components/blogoviPost"
 import { Card } from "react-bootstrap"
+import SEO from "../components/seo"
 const Uredis = styled.div`
   min-height: 100vh; /* will cover the 100% of viewport */
   overflow: hidden;
@@ -20,6 +21,7 @@ const Uredis = styled.div`
 const Page2 = () => {
   return (
     <Uredis>
+      <SEO title="blog" />
       <GlavniDio></GlavniDio>
       <div className="row">
         <div className="col-lg-12" align="center">
