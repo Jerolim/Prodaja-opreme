@@ -24,73 +24,83 @@ const Postovi = [
   {
     Naslov: "Fall of Rome",
     TekstPosta:
-      "Danas je lijep dan i uzivamo u ovome gradu Danas je lijep dan i uzivamo u ovome gradu Danas je lijep dan i uzivamo u ovome gradu",
+      "The invading army reached the outskirts of Rome, which had been left totally undefended. In 410 C.E., the Visigoths, led by Alaric, breached the walls of Rome and sacked the capital of the Roman Empire. The Visigoths looted, burned, and pillaged their way through the city, leaving a wake of destruction wherever they went. The plundering continued for three days. For the first time in nearly a millennium, the city of Rome was in the hands of someone other than the Romans. This was the first time that the city of Rome was sacked, but by no means the last.",
   },
   {
     Naslov: "Rise of British Empire",
     TekstPosta:
-      "Danas je lep dan i uzivamo u ovome gradu Danas je lijep dan i uzivamo u ovome gradu Danas je lijep dan i uzivamo u ovome gradu",
+      "The British began to establish overseas colonies in the 16th century. By 1783, Britain had a large empire with colonies in America and the West Indies. This 'first British Empire' came to an end after the American Revolution. However, in the 19th century, the British built a second worldwide empire, based on British sea-power, made up of India and huge conquests in Africa.",
   },
   {
-    Naslov: "Tank tactics",
+    Naslov: "Tank tactics in Soviet Union",
     TekstPosta:
-      "Danas jesssszivamo u ovome gradu D agagagagagagagaanas je lijep dan i uzivamo u ovome gradu Danas je lijep dan i uzivamo u ovome gradu",
+      "At the start of the Second World War much of the Red Army, including its armoured forces, was in transition and recovering from the 1937 repression of the officer corps. The Red Army ignored the lessons from Nomonhan, which had been successfully conducted by General Zhukov, and relied instead on lessons from politically selected officers who were veterans of the Spanish Civil War.",
   },
   {
     Naslov: "Future of warfare",
     TekstPosta:
-      "Danas je liaaaazivamo u ovome gradu D agagagagagagagaanas je lijep dan i uzivamo u ovome gradu Danas je lijep dan i uzivamo u ovome gradu",
+      "There are robots on the market that can carry and fire weapons like shotguns, pepper spray, grenade launchers, or even Hellfire missiles. The MULE ARV-A-L robot can fire a line-of-sight gun and anti-tank weaponry. Remote controlled TALON robots can carry everything from an M240 machine gun to a .50 caliber rifle to grenades and rocket launchers. The South Korean patrol robot can either fire non-lethal rubber bullets at intruders or carry a K-3 machine gun -- a light machine gun similar to the M249. The U.S. Marine Corps' Gladiator Tactical Unmanned Ground Vehicle (TUGV) will be able to carry an arsenal of lethal and non-lethal weapons.",
   },
   {
     Naslov: "Vietnam war",
     TekstPosta:
-      "Danas je lipbbbivamo u ovome gradu D agagagagagagagaanas je lijep dan i uzivamo u ovome gradu Danas je lijep dan i uzivamo u ovome gradu",
+      "The Vietnam War was a war fought between 1964 and 1975 on the ground in South Vietnam and bordering areas of Cambodia and Laos (see also, Secret War), and in bombing runs (Rolling Thunder) over North Vietnam. Fighting on one side was a coalition of forces including the United States (USA), the Republic of Vietnam (South Vietnam), Australia, and South Korea. Fighting on the other side was a coalition of forces including the Democratic Republic of Vietnam (North Vietnam) and the National Liberation Front (NLF, Viet Cong), a communist-led South Vietnamese guerrilla movement. The USSR provided military aid to the North Vietnamese and to the NLF, but was not one of the military combatants.",
   },
 ]
 const KomentariPostova = [
   {
-    Komentator: "Matematic",
-    TekstKomentara: " Prvipost koment",
+    Komentator: "Ceasar2003",
+    TekstKomentara: " Visigoths are bastards!!1!",
     Sifra: "0",
   },
   {
-    Komentator: "RodeRodic",
-    TekstKomentara: " Drugi post koment",
+    Komentator: "MC Aurelius",
+    TekstKomentara: " Make Rome great again",
+    Sifra: "0",
+  },
+  {
+    Komentator: "Hannibalius",
+    TekstKomentara: " Plow it like they did to Carthage",
+    Sifra: "0",
+  },
+  {
+    Komentator: "Terminator_xx",
+    TekstKomentara: " Dirty imerialists!",
     Sifra: "1",
   },
   {
-    Komentator: "Mafafac",
-    TekstKomentara: " Treci post koment",
-    Sifra: "2",
-  },
-  {
-    Komentator: "Mwewwac",
-    TekstKomentara: " prvi psot koment 2 dio",
-    Sifra: "0",
-  },
-  {
-    Komentator: "Mfeawfa",
-    TekstKomentara: " drugi post koment 2 dio",
+    Komentator: "Queen of England",
+    TekstKomentara: " ALL HAIL HER MAJESTY",
     Sifra: "1",
   },
   {
-    Komentator: "Mataseic",
-    TekstKomentara: " treci post koment 2 dio",
+    Komentator: "Brezhnev",
+    TekstKomentara: " we da best ever hhh",
     Sifra: "2",
   },
   {
-    Komentator: "Matemffffic",
-    TekstKomentara: " Prvi post koment 3 dio",
-    Sifra: "0",
+    Komentator: "Borat",
+    TekstKomentara: " Potassium",
+    Sifra: "2",
   },
   {
-    Komentator: "Matemffffic",
-    TekstKomentara: " cetvrti koment",
+    Komentator: "Noname",
+    TekstKomentara: " pansies!",
+    Sifra: "2",
+  },
+  {
+    Komentator: "Freedom_2000_",
+    TekstKomentara: " Merica yeeeah",
     Sifra: "3",
   },
   {
-    Komentator: "Matemffffic",
-    TekstKomentara: " peti koment",
+    Komentator: "Yesname",
+    TekstKomentara: " lol, amricans beaten by farmers",
+    Sifra: "4",
+  },
+  {
+    Komentator: "Corpus998",
+    TekstKomentara: " let’s go back and kick their asses!",
     Sifra: "4",
   },
 ]
