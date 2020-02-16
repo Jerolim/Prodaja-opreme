@@ -67,9 +67,9 @@ const Postovi = [
       "Gaius Julius Caesar, better known by his nomen gentilicium and cognomen Julius Caesar, was a Roman dictator, politician, and military general who played a critical role in the events that led to the demise of the Roman Republic and the rise of the Roman Empire. He was also a historian and wrote Latin prose.",
   },
   {
-    Naslov: "Was Hitler all that bad?",
+    Naslov: "Iranian Revolution.",
     TekstPosta:
-      "Over 40 percent of Austrians think life under Hitler was “not all bad,” a survey released by an Austrian newspaper revealed. The Market Institut poll also found a majority of Austrians think the country has dealt adequately with its Nazi history, the Der Standard newspaper, which commissioned the study, reported. Surveying 502 people, the paper found that 42% believed that “not everything was bad under [Adolf] Hitler,” while 57% said there were no positive aspects to life under the Nazi leader.",
+      "Iranian Revolution, also called Islamic Revolution, Persian Enqelāb-e Eslāmī, popular uprising in Iran in 1978–79 that resulted in the toppling of the monarchy on February 11, 1979, and led to the establishment of an Islamic republic.",
   },
   {
     Naslov: "Soviet–Afghan War",
@@ -196,7 +196,7 @@ const KomentariPostova = [
   },
   {
     Komentator: "LEP LI SAM",
-    TekstKomentara: " remove kebab",
+    TekstKomentara: " war is ours",
     Sifra: "6",
   },
   {
@@ -225,8 +225,8 @@ const KomentariPostova = [
     Sifra: "9",
   },
   {
-    Komentator: "An austrian 101",
-    TekstKomentara: " duuh i'm one of those 40%",
+    Komentator: "An johhny",
+    TekstKomentara: " no",
     Sifra: "9",
   },
 
@@ -242,7 +242,7 @@ const KomentariPostova = [
   },
   {
     Komentator: "brezhnev",
-    TekstKomentara: " Shut up Carter, i'll nuke your ass",
+    TekstKomentara: " Shut up Carter ",
     Sifra: "10",
   },
   {
@@ -257,7 +257,7 @@ const KomentariPostova = [
   },
   {
     Komentator: "Roosevelt2000",
-    TekstKomentara: " burn them japs :P",
+    TekstKomentara: " beat them :P",
     Sifra: "12",
   },
   {
@@ -271,13 +271,13 @@ const KomentariPostova = [
     Sifra: "12",
   },
   {
-    Komentator: "Kebab",
+    Komentator: "kenobi",
     TekstKomentara: " give me some of that europe",
     Sifra: "13",
   },
   {
     Komentator: "Roosevelt2000",
-    TekstKomentara: " this why we must burn them japs :'(",
+    TekstKomentara: " this why we must beat the japs :'(",
     Sifra: "14",
   },
   {
@@ -318,7 +318,7 @@ const KomentariPostova = [
   },
   {
     Komentator: "Donky kong",
-    TekstKomentara: " EAT SOME RICE",
+    TekstKomentara: " To victory",
     Sifra: "18",
   },
   {
