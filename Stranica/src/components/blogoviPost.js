@@ -47,79 +47,79 @@ const Postovi = [
       "The Vietnam War was a war fought between 1964 and 1975 on the ground in South Vietnam and bordering areas of Cambodia and Laos (see also, Secret War), and in bombing runs (Rolling Thunder) over North Vietnam. Fighting on one side was a coalition of forces including the United States (USA), the Republic of Vietnam (South Vietnam), Australia, and South Korea. Fighting on the other side was a coalition of forces including the Democratic Republic of Vietnam (North Vietnam) and the National Liberation Front (NLF, Viet Cong), a communist-led South Vietnamese guerrilla movement. The USSR provided military aid to the North Vietnamese and to the NLF, but was not one of the military combatants.",
   },
   {
-    Naslov: "Fall of Rome.",
+    Naslov: "Second Punic War",
     TekstPosta:
-      "The invading army reached the outskirts of Rome, which had been left totally undefended. In 410 C.E., the Visigoths, led by Alaric, breached the walls of Rome and sacked the capital of the Roman Empire. The Visigoths looted, burned, and pillaged their way through the city, leaving a wake of destruction wherever they went. The plundering continued for three days. For the first time in nearly a millennium, the city of Rome was in the hands of someone other than the Romans. This was the first time that the city of Rome was sacked, but by no means the last.",
+      "The Second Punic War, also referred to as The Hannibalic War and by the Romans the War Against Hannibal, was the second of three Punic Wars between Ancient Carthage and the Roman Republic, with the participation of Greek polities and Numidian and Iberian forces on both sides.",
   },
   {
-    Naslov: "Rise of British Empire.",
+    Naslov: "First Balkan War",
     TekstPosta:
-      "The British began to establish overseas colonies in the 16th century. By 1783, Britain had a large empire with colonies in America and the West Indies. This 'first British Empire' came to an end after the American Revolution. However, in the 19th century, the British built a second worldwide empire, based on British sea-power, made up of India and huge conquests in Africa.",
+      "The First Balkan War lasted from October 1912 to May 1913 and comprised actions of the Balkan League against the Ottoman Empire. The combined armies of the Balkan states overcame the numerically inferior and strategically disadvantaged Ottoman armies and achieved rapid success.",
   },
   {
-    Naslov: "Tank tactics in Soviet Union.",
+    Naslov: "American Revolutionary War ",
     TekstPosta:
-      "At the start of the Second World War much of the Red Army, including its armoured forces, was in transition and recovering from the 1937 repression of the officer corps. The Red Army ignored the lessons from Nomonhan, which had been successfully conducted by General Zhukov, and relied instead on lessons from politically selected officers who were veterans of the Spanish Civil War.",
+      "The American Revolutionary War, also known as the American War of Independence, was fought primarily between the Kingdom of Great Britain and her Thirteen Colonies in America; it resulted in the overthrow of British rule in the colonies and the establishment of the United States of America.",
   },
   {
-    Naslov: "Future of warfare.",
+    Naslov: "Julius Caesar ",
     TekstPosta:
-      "There are robots on the market that can carry and fire weapons like shotguns, pepper spray, grenade launchers, or even Hellfire missiles. The MULE ARV-A-L robot can fire a line-of-sight gun and anti-tank weaponry. Remote controlled TALON robots can carry everything from an M240 machine gun to a .50 caliber rifle to grenades and rocket launchers. The South Korean patrol robot can either fire non-lethal rubber bullets at intruders or carry a K-3 machine gun -- a light machine gun similar to the M249. The U.S. Marine Corps' Gladiator Tactical Unmanned Ground Vehicle (TUGV) will be able to carry an arsenal of lethal and non-lethal weapons.",
+      "Gaius Julius Caesar, better known by his nomen gentilicium and cognomen Julius Caesar, was a Roman dictator, politician, and military general who played a critical role in the events that led to the demise of the Roman Republic and the rise of the Roman Empire. He was also a historian and wrote Latin prose.",
   },
   {
-    Naslov: "Vietnam war.",
+    Naslov: "Was Hitler all that bad?",
     TekstPosta:
-      "The Vietnam War was a war fought between 1964 and 1975 on the ground in South Vietnam and bordering areas of Cambodia and Laos (see also, Secret War), and in bombing runs (Rolling Thunder) over North Vietnam. Fighting on one side was a coalition of forces including the United States (USA), the Republic of Vietnam (South Vietnam), Australia, and South Korea. Fighting on the other side was a coalition of forces including the Democratic Republic of Vietnam (North Vietnam) and the National Liberation Front (NLF, Viet Cong), a communist-led South Vietnamese guerrilla movement. The USSR provided military aid to the North Vietnamese and to the NLF, but was not one of the military combatants.",
+      "Over 40 percent of Austrians think life under Hitler was “not all bad,” a survey released by an Austrian newspaper revealed. The Market Institut poll also found a majority of Austrians think the country has dealt adequately with its Nazi history, the Der Standard newspaper, which commissioned the study, reported. Surveying 502 people, the paper found that 42% believed that “not everything was bad under [Adolf] Hitler,” while 57% said there were no positive aspects to life under the Nazi leader.",
   },
   {
-    Naslov: "Fall of Rome..",
+    Naslov: "Soviet–Afghan War",
     TekstPosta:
-      "The invading army reached the outskirts of Rome, which had been left totally undefended. In 410 C.E., the Visigoths, led by Alaric, breached the walls of Rome and sacked the capital of the Roman Empire. The Visigoths looted, burned, and pillaged their way through the city, leaving a wake of destruction wherever they went. The plundering continued for three days. For the first time in nearly a millennium, the city of Rome was in the hands of someone other than the Romans. This was the first time that the city of Rome was sacked, but by no means the last.",
+      "The Soviet–Afghan War lasted over nine years, from December 1979 to February 1989. Insurgent groups known collectively as the mujahideen, as well as smaller Maoist groups, fought a guerrilla war against the Soviet Army and the Democratic Republic of Afghanistan government, mostly in the countryside.",
   },
   {
-    Naslov: "Rise of British Empire..",
+    Naslov: "Mahatma Gandhi",
     TekstPosta:
-      "The British began to establish overseas colonies in the 16th century. By 1783, Britain had a large empire with colonies in America and the West Indies. This 'first British Empire' came to an end after the American Revolution. However, in the 19th century, the British built a second worldwide empire, based on British sea-power, made up of India and huge conquests in Africa.",
+      "Mohandas Karamchand Gandhi was an Indian lawyer, anti-colonial nationalist, and political ethicist, who employed nonviolent resistance to lead the successful campaign for India's independence from British Rule, and in turn inspire movements for civil rights and freedom across the world.",
   },
   {
-    Naslov: "Tank tactics in Soviet Union..",
+    Naslov: "Battle of Midway",
     TekstPosta:
-      "At the start of the Second World War much of the Red Army, including its armoured forces, was in transition and recovering from the 1937 repression of the officer corps. The Red Army ignored the lessons from Nomonhan, which had been successfully conducted by General Zhukov, and relied instead on lessons from politically selected officers who were veterans of the Spanish Civil War.",
+      "The Battle of Midway was a decisive naval battle in the Pacific Theater of World War II that took place on 4–7 June 1942, six months after Japan's attack on Pearl Harbor and one month after the Battle of the Coral Sea.",
   },
   {
-    Naslov: "Future of warfare..",
+    Naslov: "Second Balkan war",
     TekstPosta:
-      "There are robots on the market that can carry and fire weapons like shotguns, pepper spray, grenade launchers, or even Hellfire missiles. The MULE ARV-A-L robot can fire a line-of-sight gun and anti-tank weaponry. Remote controlled TALON robots can carry everything from an M240 machine gun to a .50 caliber rifle to grenades and rocket launchers. The South Korean patrol robot can either fire non-lethal rubber bullets at intruders or carry a K-3 machine gun -- a light machine gun similar to the M249. The U.S. Marine Corps' Gladiator Tactical Unmanned Ground Vehicle (TUGV) will be able to carry an arsenal of lethal and non-lethal weapons.",
+      "The Second Balkan War was a conflict which broke out when Bulgaria, dissatisfied with its share of the spoils of the First Balkan War, attacked its former allies, Serbia and Greece, on 16 / 29 June 1913. Serbian and Greek armies repulsed the Bulgarian offensive and counter-attacked, entering Bulgaria.",
   },
   {
-    Naslov: "Vietnam war..",
+    Naslov: "Pearl Harbor",
     TekstPosta:
-      "The Vietnam War was a war fought between 1964 and 1975 on the ground in South Vietnam and bordering areas of Cambodia and Laos (see also, Secret War), and in bombing runs (Rolling Thunder) over North Vietnam. Fighting on one side was a coalition of forces including the United States (USA), the Republic of Vietnam (South Vietnam), Australia, and South Korea. Fighting on the other side was a coalition of forces including the Democratic Republic of Vietnam (North Vietnam) and the National Liberation Front (NLF, Viet Cong), a communist-led South Vietnamese guerrilla movement. The USSR provided military aid to the North Vietnamese and to the NLF, but was not one of the military combatants.",
+      "The attack on Pearl Harbor was a surprise, preemptive military strike by the Imperial Japanese Navy Air Service upon the United States against the naval base at Pearl Harbor in Honolulu, Territory of Hawaii, just before 08:00, on Sunday morning, December 7, 1941.",
   },
   {
-    Naslov: "Fall of Rome...",
+    Naslov: "War of Roses",
     TekstPosta:
-      "The invading army reached the outskirts of Rome, which had been left totally undefended. In 410 C.E., the Visigoths, led by Alaric, breached the walls of Rome and sacked the capital of the Roman Empire. The Visigoths looted, burned, and pillaged their way through the city, leaving a wake of destruction wherever they went. The plundering continued for three days. For the first time in nearly a millennium, the city of Rome was in the hands of someone other than the Romans. This was the first time that the city of Rome was sacked, but by no means the last.",
+      "The Wars of the Roses were a series of English civil wars for control of the throne of England fought between supporters of two rival cadet branches of the royal House of Plantagenet: the House of Lancaster, represented by a red rose, and the House of York, represented by a white rose.",
   },
   {
-    Naslov: "Rise of British Empire...",
+    Naslov: "30 Years War",
     TekstPosta:
-      "The British began to establish overseas colonies in the 16th century. By 1783, Britain had a large empire with colonies in America and the West Indies. This 'first British Empire' came to an end after the American Revolution. However, in the 19th century, the British built a second worldwide empire, based on British sea-power, made up of India and huge conquests in Africa.",
+      "The Thirty Years' War was a war fought primarily in Central Europe between 1618 and 1648. One of the most destructive conflicts in human history, it resulted in eight million fatalities not only from military engagements but also from violence, famine, and plague.",
   },
   {
-    Naslov: "Tank tactics in Soviet Union...",
+    Naslov: "Winston Churchill",
     TekstPosta:
-      "At the start of the Second World War much of the Red Army, including its armoured forces, was in transition and recovering from the 1937 repression of the officer corps. The Red Army ignored the lessons from Nomonhan, which had been successfully conducted by General Zhukov, and relied instead on lessons from politically selected officers who were veterans of the Spanish Civil War.",
+      "Sir Winston Leonard Spencer-Churchill was a British politician, army officer, and writer. He was the Prime Minister of the United Kingdom from 1940 to 1945, when he led Britain to victory in the Second World War, and again from 1951 to 1955.",
   },
   {
-    Naslov: "Future of warfare...",
+    Naslov: "Third Indochina War",
     TekstPosta:
-      "There are robots on the market that can carry and fire weapons like shotguns, pepper spray, grenade launchers, or even Hellfire missiles. The MULE ARV-A-L robot can fire a line-of-sight gun and anti-tank weaponry. Remote controlled TALON robots can carry everything from an M240 machine gun to a .50 caliber rifle to grenades and rocket launchers. The South Korean patrol robot can either fire non-lethal rubber bullets at intruders or carry a K-3 machine gun -- a light machine gun similar to the M249. The U.S. Marine Corps' Gladiator Tactical Unmanned Ground Vehicle (TUGV) will be able to carry an arsenal of lethal and non-lethal weapons.",
+      "The Third Indochina War was a series of interconnected armed conflicts, mainly among the various communist factions over strategic influence in Indochina after United States withdrawal in 1973 and Communist victory in South Vietnam, Laos and Cambodia in 1975.",
   },
   {
-    Naslov: "Vietnam war...",
+    Naslov: "Iranian Revolution",
     TekstPosta:
-      "The Vietnam War was a war fought between 1964 and 1975 on the ground in South Vietnam and bordering areas of Cambodia and Laos (see also, Secret War), and in bombing runs (Rolling Thunder) over North Vietnam. Fighting on one side was a coalition of forces including the United States (USA), the Republic of Vietnam (South Vietnam), Australia, and South Korea. Fighting on the other side was a coalition of forces including the Democratic Republic of Vietnam (North Vietnam) and the National Liberation Front (NLF, Viet Cong), a communist-led South Vietnamese guerrilla movement. The USSR provided military aid to the North Vietnamese and to the NLF, but was not one of the military combatants.",
+      "Iranian Revolution, also called Islamic Revolution, Persian Enqelāb-e Eslāmī, popular uprising in Iran in 1978–79 that resulted in the toppling of the monarchy on February 11, 1979, and led to the establishment of an Islamic republic.",
   },
 ]
 const KomentariPostova = [
@@ -170,7 +170,7 @@ const KomentariPostova = [
   },
   {
     Komentator: "Yesname",
-    TekstKomentara: " lol, amricans beaten by farmers",
+    TekstKomentara: " lol, americans beaten by farmers",
     Sifra: "4",
   },
   {
@@ -180,170 +180,155 @@ const KomentariPostova = [
   },
 
   {
-    Komentator: "Ceasar2003",
-    TekstKomentara: " Visigoths are bastards!!!",
+    Komentator: "Lectours",
+    TekstKomentara: " Plow the Rome!!",
     Sifra: "5",
   },
   {
-    Komentator: "MC Aurelius",
-    TekstKomentara: " Make Rome great again",
+    Komentator: "Maestro5547",
+    TekstKomentara: " Hannibal take us!",
     Sifra: "5",
   },
   {
-    Komentator: "Hannibalius",
-    TekstKomentara: " Plow it like they did to Carthage",
+    Komentator: "doodly do boo hoo",
+    TekstKomentara: " dirty carthaginians",
     Sifra: "5",
   },
   {
-    Komentator: "Terminator_xx",
-    TekstKomentara: " Dirty imerialists!",
+    Komentator: "LEP LI SAM",
+    TekstKomentara: " remove kebab",
     Sifra: "6",
   },
   {
-    Komentator: "Queen of England",
-    TekstKomentara: " ALL EMBRACE HER MAJESTY",
+    Komentator: "omot879",
+    TekstKomentara: " Ataturk save us!!",
     Sifra: "6",
   },
   {
-    Komentator: "Brezhnev",
-    TekstKomentara: " we da best ever hhh",
+    Komentator: "American Pie 2005",
+    TekstKomentara: " get em british bastards",
     Sifra: "7",
   },
   {
     Komentator: "Borat",
-    TekstKomentara: " Potassium",
+    TekstKomentara: " I really like Potassium",
     Sifra: "7",
   },
   {
-    Komentator: "Noname",
-    TekstKomentara: " pansies!",
-    Sifra: "7",
-  },
-  {
-    Komentator: "Freedom_2000_",
-    TekstKomentara: " Merica yeeeah",
+    Komentator: "Brutus",
+    TekstKomentara: " Watch your back xP",
     Sifra: "8",
   },
   {
-    Komentator: "Yesname",
-    TekstKomentara: " lol, amricans beaten by farmers",
+    Komentator: "dumbledore",
+    TekstKomentara: " Hell yeah he was!!!",
     Sifra: "9",
   },
   {
-    Komentator: "Corpus998",
-    TekstKomentara: " let’s go back and kick their asses!",
+    Komentator: "An austrian 101",
+    TekstKomentara: " duuh i'm one of those 40%",
     Sifra: "9",
   },
 
   {
-    Komentator: "Ceasar2003",
-    TekstKomentara: " Visigoths are bastards!!!",
+    Komentator: "brezhnev",
+    TekstKomentara: " we could've done better :/",
     Sifra: "10",
   },
   {
-    Komentator: "MC Aurelius",
-    TekstKomentara: " Make Rome great again",
+    Komentator: "Carter",
+    TekstKomentara: " hah! lousy soviets",
     Sifra: "10",
   },
   {
-    Komentator: "Hannibalius",
-    TekstKomentara: " Plow it like they did to Carthage",
+    Komentator: "brezhnev",
+    TekstKomentara: " Shut up Carter, i'll nuke your ass",
     Sifra: "10",
   },
   {
-    Komentator: "Terminator_xx",
-    TekstKomentara: " Dirty imerialists!",
+    Komentator: "INDIA IN MY HEART",
+    TekstKomentara: " MAKE LOVE NOT WAR",
     Sifra: "11",
   },
   {
     Komentator: "Queen of England",
-    TekstKomentara: " ALL EMBRACE HER MAJESTY",
+    TekstKomentara: " Ugh this dude",
     Sifra: "11",
   },
   {
-    Komentator: "Brezhnev",
-    TekstKomentara: " we da best ever hhh",
+    Komentator: "Roosevelt2000",
+    TekstKomentara: " burn them japs :P",
     Sifra: "12",
   },
   {
     Komentator: "Borat",
-    TekstKomentara: " Potassium",
+    TekstKomentara: " Selling Potassium",
     Sifra: "12",
   },
   {
-    Komentator: "Noname",
-    TekstKomentara: " pansies!",
+    Komentator: "Samurai Hirohito ",
+    TekstKomentara: " Banzaiiii",
     Sifra: "12",
   },
   {
-    Komentator: "Freedom_2000_",
-    TekstKomentara: " Merica yeeeah",
+    Komentator: "Kebab",
+    TekstKomentara: " give me some of that europe",
     Sifra: "13",
   },
   {
-    Komentator: "Yesname",
-    TekstKomentara: " lol, amricans beaten by farmers",
+    Komentator: "Roosevelt2000",
+    TekstKomentara: " this why we must burn them japs :'(",
     Sifra: "14",
   },
   {
-    Komentator: "Corpus998",
-    TekstKomentara: " let’s go back and kick their asses!",
+    Komentator: "Zero",
+    TekstKomentara: " incoming!",
     Sifra: "14",
   },
 
   {
-    Komentator: "Ceasar2003",
-    TekstKomentara: " Visigoths are bastards!!!",
+    Komentator: "MikryMouse",
+    TekstKomentara: " I love roses!",
     Sifra: "15",
   },
   {
-    Komentator: "MC Aurelius",
-    TekstKomentara: " Make Rome great again",
-    Sifra: "15",
-  },
-  {
-    Komentator: "Hannibalius",
-    TekstKomentara: " Plow it like they did to Carthage",
-    Sifra: "15",
-  },
-  {
-    Komentator: "Terminator_xx",
-    TekstKomentara: " Dirty imerialists!",
+    Komentator: "Harkom",
+    TekstKomentara: " I love eating ice :3",
     Sifra: "16",
   },
   {
-    Komentator: "Queen of England",
-    TekstKomentara: " ALL EMBRACE HER MAJESTY",
+    Komentator: "Ferdinand",
+    TekstKomentara: " And i love my pope :)",
     Sifra: "16",
   },
   {
-    Komentator: "Brezhnev",
-    TekstKomentara: " we da best ever hhh",
+    Komentator: "Englishman",
+    TekstKomentara: " best prime minister ever",
     Sifra: "17",
   },
   {
-    Komentator: "Borat",
-    TekstKomentara: " Potassium",
+    Komentator: "Irishman",
+    TekstKomentara: " meh",
     Sifra: "17",
   },
   {
-    Komentator: "Noname",
-    TekstKomentara: " pansies!",
+    Komentator: "kangaroo",
+    TekstKomentara: " Churchill is good man",
     Sifra: "17",
   },
   {
-    Komentator: "Freedom_2000_",
-    TekstKomentara: " Merica yeeeah",
+    Komentator: "Donky kong",
+    TekstKomentara: " EAT SOME RICE",
     Sifra: "18",
   },
   {
-    Komentator: "Yesname",
-    TekstKomentara: " lol, amricans beaten by farmers",
+    Komentator: "Palantir789",
+    TekstKomentara: " Can't see me",
     Sifra: "19",
   },
   {
-    Komentator: "Corpus998",
-    TekstKomentara: " let’s go back and kick their asses!",
+    Komentator: " OG Pahlavi",
+    TekstKomentara: " Give me back my throne!",
     Sifra: "19",
   },
 ]
