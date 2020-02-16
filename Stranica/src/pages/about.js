@@ -22,7 +22,7 @@ const UrediAbout = styled.div`
 const About = ({ data }) => {
   console.log(data.allFile.edges[0].node)
 
-  return (
+  return 
     <UrediAbout>
       <GlavniDio></GlavniDio>
       <div className="row">
@@ -51,9 +51,23 @@ const About = ({ data }) => {
           />
         </div>
         <div className="col-lg-6 col-md-8 col-sm-12">
-          <h2>Info:</h2>
+          <h2>About</h2>
           <p>
-            We are a young company specializing in sale of history equipment.
+          History shop is a professional and specialized shop online shop trading with historic weapons and 
+          gears as a part of History d.o.o. company. We have been in business since 2006. and are proud to 
+          point out our milestone of more than 100 000 purchases on our website since inception. Our mission 
+          is to make access of quality historic artifacts to military and history enthusiasts are easy as possible. 
+          Our target customers are people who require a dose of professionalism and a quality product. Idea 
+          came from two students at the time of their master’s degree and grew into a lucrative business. 
+
+          Our articles are a result of a very careful filtering process in which we test the materials and origin of 
+          the product before putting it online in order to have the best satisfaction with our customers.
+
+          Today, History shop is based around these categories:
+              •	gear
+              •	weapons
+              •	awards
+              •	journals
           </p>
           <h2>O podacima:</h2>
           <p>
