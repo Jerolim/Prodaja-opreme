@@ -117,7 +117,7 @@ const Postovi = [
       "The Third Indochina War was a series of interconnected armed conflicts, mainly among the various communist factions over strategic influence in Indochina after United States withdrawal in 1973 and Communist victory in South Vietnam, Laos and Cambodia in 1975.",
   },
   {
-    Naslov: "Iranian Revolution",
+    Naslov: "Iranian Revolution ",
     TekstPosta:
       "Iranian Revolution, also called Islamic Revolution, Persian Enqelāb-e Eslāmī, popular uprising in Iran in 1978–79 that resulted in the toppling of the monarchy on February 11, 1979, and led to the establishment of an Islamic republic.",
   },
