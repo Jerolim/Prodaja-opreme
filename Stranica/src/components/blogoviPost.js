@@ -130,7 +130,7 @@ const KomentariPostova = [
   },
   {
     Komentator: "MC Aurelius",
-    TekstKomentara: " Make Rome great again",
+    TekstKomentara: "Rebuild Rome",
     Sifra: "0",
   },
   {
