@@ -127,3 +127,4 @@ const Navigation = ({ Predmeti }) => {
 }
 export default Navigation
 //<Card.Img variant="top" fluid={node.childImageSharp.fluid} />
+//Provjera
